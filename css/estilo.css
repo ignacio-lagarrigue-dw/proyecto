@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap');
+
 .logo{
     width: 10rem;
 }
@@ -8,4 +10,22 @@ header{
 
 body{
     background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fuentes{
+    
+    font: 1.5rem;
+    font-weight: bold;
+    padding: 2rem;
+    text-transform: uppercase;
+    
+}
+
+.fuentes .nav-link{
+    color: #ededed;
+}
+
+.fuentes li a:hover{
+    background-color: #b09a70;
 }
