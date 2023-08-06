@@ -29,3 +29,12 @@ body{
 .fuentes li a:hover{
     background-color: #b09a70;
 }
+
+.titulos{
+    background-color: #ededed;
+    color: #005f40;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+}
