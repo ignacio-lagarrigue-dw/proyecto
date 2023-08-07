@@ -38,3 +38,8 @@ body{
     font-weight: bold;
     padding: 1rem;
 }
+
+.colorBtn{
+    background-color: #005f40;
+    color: #ededed;
+}
