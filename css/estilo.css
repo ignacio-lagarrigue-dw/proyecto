@@ -43,3 +43,9 @@ body{
     background-color: #005f40;
     color: #ededed;
 }
+footer{
+    color: black;
+    font-size: smaller;
+    text-align: center;
+    background-color: #ededed;
+}
