@@ -1,54 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap');
-
-.logo{
-    width: 10rem;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap");
+header {
+  background-color: #005f40;
+}
+header .logo {
+  width: 10rem;
+}
+header h1 {
+  color: black;
+}
+header .fuentes .nav-link {
+  color: #ededed;
+}
+header .fuentes li a:hover {
+  background-color: #b09a70;
 }
 
-header{
-    background-color: #005f40;
+body {
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+}
+body .fuentes {
+  font: 1.5rem;
+  font-weight: bold;
+  padding: 2rem;
+  text-transform: uppercase;
+}
+body .titulos {
+  background-color: #ededed;
+  color: #005f40;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+}
+body .colorBtn {
+  background-color: #005f40;
+  color: #ededed;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
-body{
-    background-color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
+footer {
+  color: black;
+  font-size: smaller;
+  text-align: center;
+  background-color: #ededed;
 }
 
-.fuentes{
-    
-    font: 1.5rem;
-    font-weight: bold;
-    padding: 2rem;
-    text-transform: uppercase;
-    
-}
-
-.fuentes .nav-link{
-    color: #ededed;
-}
-
-.fuentes li a:hover{
-    background-color: #b09a70;
-}
-
-.titulos{
-    background-color: #ededed;
-    color: #005f40;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 1rem;
-}
-
-.colorBtn{
-    background-color: #005f40;
-    color: #ededed;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-footer{
-    color: black;
-    font-size: smaller;
-    text-align: center;
-    background-color: #ededed;
-}
+/*# sourceMappingURL=estilo.css.map */
