@@ -53,6 +53,29 @@ body{
             margin-top: 10px;
             margin-bottom: 5px;
         }
+
+        .titulosx
+        {
+            font-size: 40px;
+            
+        }
+
+        .lead{
+            font-size: larger;
+        }
+
+        .enlace{
+            font-size: large;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            height: 100%;
+        }
+
+        .tarjeta {
+            margin-top: 50px; 
+            margin-bottom: 50px;
+        }
     }
 
 

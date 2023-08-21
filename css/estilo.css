@@ -39,6 +39,23 @@ body .colorBtn {
   margin-top: 10px;
   margin-bottom: 5px;
 }
+body .titulosx {
+  font-size: 40px;
+}
+body .lead {
+  font-size: larger;
+}
+body .enlace {
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 100%;
+}
+body .tarjeta {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 footer {
   color: black;
