@@ -1,0 +1,61 @@
+@import "variables";
+
+body{
+    background-color: $color-secundario;
+    color: $color-texto-2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+    .fuentes{
+        font: 1.5rem;
+        font-weight: bold;
+        padding: 2rem;
+        text-transform: uppercase;      
+
+}
+
+.titulos{
+    color: $color-primario;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.colorBtn{
+    background-color: $color-primario;
+    color: $color-primario;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.titulosx
+{
+    font-size: 40px;
+    
+}
+
+.lead{
+    font-size: larger;
+}
+
+.enlace{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100%;
+}
+
+.tarjeta {
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+footer{
+    color: black;
+    font-size: smaller;
+    text-align: center;
+    background-color: #ededed;
+    }
+

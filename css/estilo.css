@@ -1,58 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap");
-header {
-  background-color: #005f40;
-}
-header .logo {
-  width: 10rem;
-}
-header h1 {
-  color: black;
-}
-header .fuentes .nav-link {
+.fuentes .nav-link {
   color: #ededed;
 }
-header .fuentes li a:hover {
+
+.fuentes li a:hover {
   background-color: #b09a70;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #ededed;
+  color: black;
   font-family: "Open Sans", sans-serif;
 }
-body .fuentes {
+
+.fuentes {
   font: 1.5rem;
   font-weight: bold;
   padding: 2rem;
   text-transform: uppercase;
 }
-body .titulos {
-  background-color: #ededed;
+
+.titulos {
   color: #005f40;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
   padding: 1rem;
 }
-body .colorBtn {
+
+.colorBtn {
   background-color: #005f40;
-  color: #ededed;
+  color: #005f40;
   margin-top: 10px;
   margin-bottom: 5px;
 }
-body .titulosx {
+
+.titulosx {
   font-size: 40px;
 }
-body .lead {
+
+.lead {
   font-size: larger;
 }
-body .enlace {
+
+.enlace {
   font-size: large;
   display: flex;
   justify-content: center;
   align-items: end;
   height: 100%;
 }
-body .tarjeta {
+
+.tarjeta {
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -62,6 +61,19 @@ footer {
   font-size: smaller;
   text-align: center;
   background-color: #ededed;
+}
+
+.logo {
+  width: 10rem;
+}
+
+.encabezado {
+  background-color: #005f40;
+  font-weight: bold;
+}
+
+h1 {
+  color: #ededed;
 }
 
 /*# sourceMappingURL=estilo.css.map */
