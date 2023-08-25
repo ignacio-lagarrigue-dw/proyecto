@@ -49,71 +49,60 @@
         <div class="titulos mt-1">
             <h2>Contactos</h2>
         </div>
-        <div>
-            <h2> Dirección </h2>
-            <p> Av. Rafael Nuñez 4231, Ciudad de Córdoba</p>
-
-            <h3> Horarios de Atención </h3>
-            <ul>
-                <li>Lunes a viernes de 10 a 20 hs</li>
-                <li>Sábados de 9 a 13 hs</li>
-            </ul>
-
-            <h3> Teléfono </h3>
-            <p> 351-7352258 </p>
-
-            <h3> ¿Cómo llegar? </h3>
-
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1638.9635351743468!2d-64.23278736503286!3d-31.369573819977745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432993026c2c57d%3A0x3d95ce6692dfb0ad!2sAv.%20Rafael%20Nu%204231%2C%20X4231%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1689135022639!5m2!1ses-419!2sar"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
 
 
-        <div class="container py-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <h2 class="card-title text-center mb-4">Formulario de Contacto</h2>
-                            <form method="post">
-                                <div class="mb-3">
-                                    <label for="fname" class="form-label"> Nombre </label>
-                                    <input id="fname" name="name" type="text" class="form-control">
+        <main>
+            <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+                <div class="row align-items-center g-lg-5 py-5">
+                    <div class="col-lg-5 formulario-contacto fw-bolder lh-1 text-body-emphasis mb-3 ">
+                        <div class="info-contacto">
+                            <h3 class="fw-bold lh-1 text-body-emphasis mb-3"> Teléfono </h3>
+                            <p class="col-lg-10 fs-5 text-center"> 351-7352258 </p>
+                            <h3 class="fw-bold lh-1 text-body-emphasis mb-3"> Dirección </h3>
+                            <p class="col-lg-10 fs-5 text-center"> Av. Rafael Nuñez 4231, Ciudad de Córdoba </p>
+                            <h3 class="fw-bold lh-1 text-body-emphasis mb-3"> Horarios de Atención </h3>
+                            <ul class="col-lg-10 fs-5 text-center">
+                                <li>Lunes a viernes de 10 a 20 hs</li>
+                                <li>Sábados de 9 a 13 hs</li>
+                            </ul>
+                            <h3 class="fw-bold lh-1 text-body-emphasis mb-3"> ¿Cómo llegar? </h3>
+                            <div>
+                                <iframe class="mapa"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1638.9635351743468!2d-64.23278736503286!3d-31.369573819977745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432993026c2c57d%3A0x3d95ce6692dfb0ad!2sAv.%20Rafael%20Nu%204231%2C%20X4231%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1689135022639!5m2!1ses-419!2sar"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="formulario-contacto fw-bold lh-1 text-body-emphasis mb-3">
+                            <h3>Formulario de contacto</h3>
+                            <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                    <label for="floatingInput">Nombre</label>
                                 </div>
-
-                                <div class="mb-3">
-                                    <label for="fname" class="form-label"> Apellido </label>
-                                    <input id="fname" name="name" type="text" class="form-control">
+                                <div class="form-floating mb-3">
+                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                    <label for="floatingPassword">Apellido</label>
                                 </div>
-
-                                <div class="mb-3">
-                                    <label for="fname" class="form-label"> Email </label>
-                                    <input id="fname" name="name" type="text" class="form-control">
+                                <div class="form-floating mb-3">
+                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                    <label for="floatingPassword">Email</label>
                                 </div>
-
-                                <div class="mb-3">
-                                    <label for="fname" class="form-label"> Teléfono </label>
-                                    <input id="fname" name="name" type="text" class="form-control">
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje aquí"></textarea>
+                                    <label for="exampleFormControlTextarea1">Mensaje</label>
                                 </div>
-
-                                <div class="mb-3">
-                                    <label for="message" class="form-label"> Mensaje </label>
-                                    <textarea id="message" name="message" class="form-control" rows="5"></textarea>
+                                <div class="checkbox mb-3">
                                 </div>
-
-                                <div class="text-center">
-                                    <button type="submit" class="btn colorBtn btn-lg"> Enviar </button>
-                                </div>
-
+                                <button class="w-100 btn btn-lg colorBtn boton-enviar" type="submit"> Enviar </button>
+                                <hr class="my-4">
+                                <small class="text-body-secondary">Dejá tu mensaje, nos contactaremos a la brevedad..</small>
                             </form>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-
+                    
     </main>
 
     <footer>
@@ -125,7 +114,7 @@
         crossorigin="anonymous"></script>
 
 
-        
+
 </body>
 
 </html>
