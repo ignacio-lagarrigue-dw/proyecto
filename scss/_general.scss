@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap');
 
 body {
-    background-color: $color-secundario;
+    background-color: $color-fondo;
     color: $color-texto-2;
     font-family: 'Open Sans', sans-serif;
 }
@@ -66,9 +66,10 @@ body {
 .info-contacto {
     font-size: 16px;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: $color-fondo-contacto;
     border-radius: 10px;
     text-align: center;
+    line-height: 1.5;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -78,28 +79,34 @@ body {
 
 .formulario-contacto {
     padding: 20px;
-    background-color: #ffffff;
+    background-color: $color-fondo-contacto;
+    border-bottom: 10px ;
     border-radius: 10px;
 
 }
 
 
+ul{
+    display: flexbox;
+    line-height: 1.5;
+}
+
 h2{
     font-weight: 700;
+    
 }
 
-h3 {
-    color: $color-texto-2;
-    text-align: initial;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 1rem;
+h3{
+    color: $color-primario;
     text-align: center;
-    margin-bottom: 1rem; 
-    color: #005f40
+    text-transform: uppercase;
+    font-weight: 1000;
+    line-height: 1.5;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    
 
 }
-
 
 .alineacion{
 display: flex;
@@ -107,6 +114,7 @@ flex-direction: column;
 align-items: center;
 
 }
+
 footer {
     color: black;
     font-size: smaller;
