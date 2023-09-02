@@ -1,0 +1,10 @@
+@mixin footerUno{
+        color: $color-texto-2;
+        font-size: smaller;
+        text-align: center;
+        background-color: $color-secundario;
+}
+
+footer{
+    @include footerUno;
+}
