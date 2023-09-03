@@ -37,24 +37,12 @@ body {
   padding: 1rem;
 }
 
-.colorBtn {
-  background-color: #005f40;
-  color: white;
-  margin-top: 10px;
-  margin-bottom: 5px;
-}
-
-.boton-enviar {
-  color: white;
-  background-image: linear-gradient(to bottom, #005f40, #05422e);
-}
-
-.titulosx {
+.titulosMarcas {
   font-size: 30px;
   font-weight: 700;
 }
 
-.lead {
+.parrafoUno {
   font-size: larger;
 }
 
@@ -72,6 +60,18 @@ body {
   color: #914d76;
 }
 
+.colorBtn {
+  background-color: #005f40;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.botonEnviar {
+  color: white;
+  background-image: linear-gradient(to bottom, #005f40, #05422e);
+}
+
 .tarjeta {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -84,21 +84,21 @@ body {
   border-radius: 10px;
 }
 
-.info-contacto {
+.infoContacto {
   font-size: 16px;
   padding: 20px;
   background-color: #fffbfe;
-  border-radius: 10px;
   text-align: center;
   line-height: 1.5;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid #135343;
+  border-radius: 10px;
+  box-shadow: 0 0 0 20px transparent, inset 0 0 0 20px #005f40;
 }
 
-.formulario-contacto {
+.formularioContacto {
   padding: 20px;
   background-color: #fffbfe;
   border-bottom: 10px;
@@ -138,7 +138,7 @@ h3 {
   align-items: center;
 }
 
-.form-control {
+.formularioControl {
   background-color: #EFEFEF;
   border: 2px solid #135343;
   color: #050505;
