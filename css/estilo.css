@@ -22,11 +22,12 @@ body {
 }
 
 .tituloPrincipal {
-  color: #ededed;
+  color: #005f40;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
   padding: 1rem;
+  margin-bottom: 3px;
 }
 
 .titulos {
@@ -78,6 +79,12 @@ body {
 .botonEnviar {
   color: white;
   background-image: linear-gradient(to bottom, #005f40, #05422e);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.botonEnviar:hover {
+  background-color: #006888;
 }
 
 .tarjeta {
@@ -115,12 +122,17 @@ body {
   color: #ededed;
 }
 
+.form-control {
+  border: 2px solid #005f40;
+}
+
 ul {
   display: flexbox;
   line-height: 1.5;
 }
 
 h1 {
+  font-weight: bold;
   font-size: 36px;
   color: #005f40;
   text-align: center;
@@ -161,15 +173,12 @@ h3 {
 
 .logo {
   width: 10rem;
+  transform: rotate(-4deg);
 }
 
 .encabezado {
   background-color: #005f40;
   font-weight: bold;
-}
-
-h1 {
-  color: #ededed;
 }
 
 footer {

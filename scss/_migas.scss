@@ -9,17 +9,17 @@
 }
 
 .breadcrumb-item a {
-    color: $color-primario; 
+    color: $colorPrimario; 
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .breadcrumb-item a:hover {
-    color: #914d76; 
+    color: $colorHover2; 
 }
 
 .breadcrumb-item.active {
-    color: #006888; 
+    color: $colorHover; 
     font-weight: bold;
 }
 

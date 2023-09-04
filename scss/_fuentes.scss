@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap');
-
+@import "variables";
 .fuentes .nav-link{
-    color: #ededed;
+    color: $colorSecundario;
     
 }
 
 .fuentes li a:hover {
-    background-color: #006888;
+    background-color: $colorHover;
 }

@@ -2,8 +2,8 @@
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap');
 
     body {
-        background-color: $color-fondo;
-        color: $color-texto-2;
+        background-color: $colorFondo;
+        color: $colorTexto2;
         font-family: 'Open Sans', sans-serif;
     }
 
@@ -15,15 +15,16 @@
     }
 
     .tituloPrincipal {
-        color: $color-secundario;
+        color: $colorPrimario;
         text-align: center;
         text-transform: uppercase;
         font-weight: bold;
         padding: 1rem;
+        margin-bottom: 3px;
     }
 
     .titulos {
-        color: $color-primario;
+        color: $colorPrimario;
         text-align: center;
         text-transform: uppercase;
         font-weight: bold;
@@ -31,7 +32,7 @@
     }
 
     .tituloFormulario {
-        color: white;
+        color: $colorTexto;
         text-align: center;
         text-transform: uppercase;
         font-weight: 400;
@@ -48,7 +49,7 @@
     }
 
     .enlace {
-        color: #006888;
+        color: $colorHover;
         font-size: 20px;
         display: flex;
         justify-content: center;
@@ -58,19 +59,25 @@
     }
 
     .enlace:hover {
-        color: #914d76;
+        color: $colorHover2;
     }
 
     .colorBtn {
-        background-color: $color-primario;
-        color: $color-texto;
+        background-color: $colorPrimario;
+        color: $colorTexto;
         margin-top: 10px;
         margin-bottom: 5px;
     }
 
     .botonEnviar {
-        color: $color-texto;
+        color: $colorTexto;
         background-image: linear-gradient(to bottom, #005f40, #05422e);
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease;
+    }
+    
+    .botonEnviar:hover {
+        background-color: $colorHover;
     }
 
     .tarjeta {
@@ -88,7 +95,7 @@
     .infoContacto {
         font-size: 16px;
         padding: 20px;
-        background-color: $color-fondo-contacto;
+        background-color: $colorFondoContacto;
         text-align: center;
         line-height: 1.5;
         display: flex;
@@ -101,11 +108,14 @@
 
     .formularioContacto {
         padding: 20px;
-        background-color: $color-fondo-contacto;
+        background-color: $colorFondoContacto;
         border-bottom: 10px;
         border-radius: 10px;
         background-image: linear-gradient(to bottom, #005f40, #05422e);
-        color: $color-secundario;
+        color: $colorSecundario;
+    }
+    .form-control {
+    border: 2px solid #005f40;
     }
 
     ul {
@@ -114,6 +124,7 @@
     }
 
     h1 {
+        font-weight: bold;
         font-size: 36px;
         color: #005f40;
         text-align: center;
@@ -129,7 +140,7 @@
     }
 
     h3 {
-        color: $color-primario;
+        color: $colorPrimario;
         text-align: center;
         text-transform: uppercase;
         font-weight: 1000;
@@ -148,6 +159,6 @@
     .formularioControl {
         background-color: #EFEFEF;
         border: 2px solid #135343;
-        color: $color-texto-2;
+        color: $colorTexto2;
         border-radius: 5px
     }

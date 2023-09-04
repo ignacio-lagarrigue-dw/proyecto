@@ -2,21 +2,16 @@
 
 @mixin anclas{
     text-decoration: none;
-    color: $color-texto;
+    color: $colorTexto;
     font-size: 30px;
 }
 
 .logo{
     width: 10rem;
+    transform: rotate(-4deg);
 }
 
 .encabezado{
-    background-color: $color-primario;
-    font-weight: bold;
-    
-    
-}
-
-h1 {
-    color: $color-secundario;
+    background-color: $colorPrimario;
+    font-weight: bold;   
 }
