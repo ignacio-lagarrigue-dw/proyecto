@@ -1,0 +1,25 @@
+.breadcrumb {
+    background-color: transparent; 
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.breadcrumb-item {
+    padding: 0;
+}
+
+.breadcrumb-item a {
+    color: $color-primario; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.breadcrumb-item a:hover {
+    color: #914d76; 
+}
+
+.breadcrumb-item.active {
+    color: #006888; 
+    font-weight: bold;
+}
+
