@@ -195,25 +195,25 @@ footer {
 
 .breadcrumb {
   background-color: transparent;
-  font-size: 18px;
+  font-size: 17 px;
   margin-bottom: 20px;
 }
 
-.breadcrumb-item {
+.breadcrumbItem {
   padding: 0;
 }
 
-.breadcrumb-item a {
+.breadcrumbItem a {
   color: #005f40;
   text-decoration: none;
   transition: color 0.3s;
 }
 
-.breadcrumb-item a:hover {
+.breadcrumbItem a:hover {
   color: #914d76;
 }
 
-.breadcrumb-item.active {
+.breadcrumbItem.active {
   color: #006888;
   font-weight: bold;
 }

@@ -1,24 +1,24 @@
 .breadcrumb {
     background-color: transparent; 
-    font-size: 18px;
+    font-size: 17   px;
     margin-bottom: 20px;
 }
 
-.breadcrumb-item {
+.breadcrumbItem {
     padding: 0;
 }
 
-.breadcrumb-item a {
+.breadcrumbItem a {
     color: $colorPrimario; 
     text-decoration: none;
     transition: color 0.3s;
 }
 
-.breadcrumb-item a:hover {
+.breadcrumbItem a:hover {
     color: $colorHover2; 
 }
 
-.breadcrumb-item.active {
+.breadcrumbItem.active {
     color: $colorHover; 
     font-weight: bold;
 }
