@@ -158,6 +158,13 @@ h3 {
   letter-spacing: 1.5px;
 }
 
+.promo {
+  font-size: 16px;
+  color: #005f40;
+  font-style: italic;
+  margin-top: 5px;
+}
+
 .alineacion {
   display: flex;
   flex-direction: column;
@@ -169,6 +176,13 @@ h3 {
   border: 2px solid #135343;
   color: #050505;
   border-radius: 5px;
+}
+
+.precios {
+  font-size: 24px;
+  color: #050505;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 .logo {
@@ -199,22 +213,22 @@ footer {
   margin-bottom: 20px;
 }
 
-.breadcrumbItem {
+.breadcrumb-item {
   padding: 0;
 }
 
-.breadcrumbItem a {
+.breadcrumb-item a {
   color: #005f40;
   text-decoration: none;
   transition: color 0.3s;
 }
 
-.breadcrumbItem a:hover {
+.breadcrumb-item a:hover {
   color: #914d76;
 }
 
-.breadcrumbItem.active {
-  color: #006888;
+.breadcrumb-item.active {
+  color: #005f40;
   font-weight: bold;
 }
 

@@ -75,7 +75,7 @@
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
         transition: background-color 0.3s ease;
     }
-    
+
     .botonEnviar:hover {
         background-color: $colorHover;
     }
@@ -114,8 +114,9 @@
         background-image: linear-gradient(to bottom, #005f40, #05422e);
         color: $colorSecundario;
     }
+
     .form-control {
-    border: 2px solid #005f40;
+        border: 2px solid #005f40;
     }
 
     ul {
@@ -129,7 +130,7 @@
         color: #005f40;
         text-align: center;
     }
-    
+
     h2 {
         font-size: 35px;
         font-weight: 700;
@@ -150,6 +151,13 @@
         letter-spacing: 1.5px
     }
 
+    .promo {
+        font-size: 16px;
+        color: #005f40;
+        font-style: italic;
+        margin-top: 5px;    
+    }
+
     .alineacion {
         display: flex;
         flex-direction: column;
@@ -161,4 +169,11 @@
         border: 2px solid #135343;
         color: $colorTexto2;
         border-radius: 5px
+    }
+    
+    .precios {
+        font-size: 24px;
+        color: $colorTexto2;
+        font-weight: bold;
+        margin-top: 10px;
     }
