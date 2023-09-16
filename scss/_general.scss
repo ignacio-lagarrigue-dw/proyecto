@@ -62,6 +62,10 @@
         color: $colorHover2;
     }
 
+    .btn{
+        bottom: 10px
+    }
+
     .colorBtn {
         background-color: $colorPrimario;
         color: $colorTexto;
@@ -83,10 +87,6 @@
     .tarjeta {
         margin-top: 50px;
         margin-bottom: 50px;
-    }
-
-    .alturaP{
-        max-height: 100px;
     }
 
     .mapa {
