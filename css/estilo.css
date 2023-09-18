@@ -65,6 +65,11 @@ body {
   transition: color 0.3s;
 }
 
+.card-text {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
 .enlace:hover {
   color: #914d76;
 }
